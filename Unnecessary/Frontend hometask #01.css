@@ -1,0 +1,104 @@
+img {
+    width: 300px;
+    margin: 10px;
+}
+
+.upper {
+    background-color: royalblue;
+    color: seashell;
+    padding: 20px;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+.lower {
+    padding: 10px;
+    background-color: sandybrown;
+    height: 60px;
+    font-size: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.lower2 {
+    padding: 10px;
+    background-color: rgb(72, 191, 195);
+    height: 60px;
+    font-size: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.lower2 {
+    padding: 10px;
+    background-color: rgb(72, 191, 195);
+    height: 60px;
+    font-size: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.lower3 {
+    padding: 10px;
+    background-color: rgb(96, 59, 195);
+    height: 60px;
+    font-size: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+h1, body {
+    margin: 0px;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1.2px rgba(0, 0, 0, 0.5);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    
+}
+
+.content {
+    text-align: left;
+    font-size: 45px;
+    color: black;
+}
+
+.telega {
+    color: rgb(27, 71, 216);
+    display: block;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 1484px;
+}
+
+.telega:hover {
+    color: dodgerblue;
+}
+
+label {
+    display: block;
+    font-size: 45px;
+    text-align: inherit;
+}
+input[type="text"], textarea {
+    width: 300px;
+    font-size: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+.send {
+    font-size: 45px;
+    background-color: greenyellow;
+}
+
+.send:hover {
+    background-color: green;
+}
+
+.send:active {
+    background-color: rgb(0, 71, 0);
+}

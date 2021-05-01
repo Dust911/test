@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 3</title>
+</head>
+<body>
+    <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%BA%D0%B5%D1%82%D0%B0">Что такое анкета?</a>
+    <img src="images/unnamed.jpg" alt="anketa">
+
+    <form>
+        <label for="name">Имя</label>
+        <input id="name" type="text">
+        <label for="age">Возраст</label>
+        <input id="age" type="number">
+        
+        <label for="about">О себе</label>
+        <textarea id="about"></textarea>
+        
+    <fieldset class="langs">
+        <legend>Знание языков</legend>
+        <label for="en">Английский язык</label>
+        <input id="en" type="checkbox">
+        <label for="ru">Русский язык</label>
+        <input id="ru" type="checkbox">
+        <label for="kg">Кыргызский язык</label>
+        <input id="kg" type="checkbox">
+    </fieldset>
+
+    <fieldset class="jobs">
+        <legend>Род занятий</legend>
+        <label for="study">Учусь</label>
+        <input name="job" id="study" type="radio">
+        <label for="work">Работаю</label>
+        <input name="job" id="work" type="radio">
+        <label for="notwork">Не работаю</label>
+        <input name="job" id="notwork" type="radio">
+    </fieldset>
+
+    <fieldset>
+        <button class="send">
+            Отправить
+        </button>
+    </fieldset>
+    </form>
+</body>
+</html>
